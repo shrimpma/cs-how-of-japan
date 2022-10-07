@@ -1,10 +1,13 @@
 version: "2"
+
 services:
-    web:
-      image: ubuntu:16.04
-      container_name: ubuntu16
-      ports:
-        - "8085:80"
-      command: "apt update && apt install -y binutils"
-      volumes:
-        - ./how-linux-work:/code
+  web:
+    image: ubuntu:16.04
+    container_name: ubuntu-16
+    ports:
+      - "8085:80"
+    # command: "apt update && apt install binutils build-essential sysstat -y"
+    command: "/bin/bash"
+    volumes:
+      - "./how-linux-work:/code"
+    tty: true  

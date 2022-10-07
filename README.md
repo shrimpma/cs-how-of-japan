@@ -1,1 +1,12 @@
-# cs-how-of-japan git init gorigin https://git add README.md git commit -m first commit git branch -M main git remote add ithub.com/shrimpma/cs-how-of-japan.git git push -u origin main
+# CS 日系"怎样"计算机系列书籍
+
+1. 程序是怎么跑起来的
+
+2. Linux 是怎样工作的 
+操作系统相关知识  
+
+3. 计算机是怎样跑起来的
+
+4. 网络是怎样连接的
+
+5. 面向对象是怎样工作的$$
